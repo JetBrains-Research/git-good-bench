@@ -1,9 +1,9 @@
 # GitGoodBench
 In this repository we release the code accompanying our paper "GitGoodBench: A Novel Benchmark For Evaluating Agentic Performance
 On Git". We release the benchmark suite we present in the paper on HuggingFace. There you can also find a detailed dataset card:
-- [GitGoodBench](https://huggingface.co/datasets/gitgood/git_good_bench)
-- [GitGoodBench Lite](https://huggingface.co/datasets/gitgood/git_good_bench-lite)
-- [GitGoodBench Train](https://huggingface.co/datasets/gitgood/git_good_bench-train)
+- [GitGoodBench](https://huggingface.co/datasets/JetBrains/git_good_bench)
+- [GitGoodBench Lite](https://huggingface.co/datasets/JetBrains/git_good_bench-lite)
+- [GitGoodBench Train](https://huggingface.co/datasets/JetBrains/git_good_bench-train)
 
 For details on the construction of our dataset and supported scenarios, we refer the to our paper.
 
@@ -41,6 +41,5 @@ our scenario environment management and evaluation implementation in addition to
 Finally, in `src/notebooks` we provide the Jupyter notebooks in which we analyzed our benchmark, computed the statistics
 presented in the HuggingFace dataset cards and our main results. 
 
-In the `data` folder we release an SQLLite DB (`data/vcs-agent-evaluation-metadata.db`) containing the results of the evaluation run with our baseline on GitGoodBench Lite and 
-the dataset (`data/git_good_bench_full.csv`) from which we construct our benchmark splits.
+In the `data` folder we release an SQLLite DB (`data/vcs-agent-evaluation-metadata.db`) containing the results of the evaluation run with our baseline on GitGoodBench Lite and the data on the original repositories we considered before any preprocessing.
 
